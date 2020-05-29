@@ -1,0 +1,60 @@
+{
+  "_from": "storybook-addon-figma",
+  "_id": "storybook-addon-figma@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-OQztazEB8h12DUjRCRW/g40OfiJsek1nBQXx5PIy9jXl+1kfQyVOmXIj3NuECzjCwLagnlKubZybRVHoTkusdA==",
+  "_location": "/storybook-addon-figma",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "storybook-addon-figma",
+    "name": "storybook-addon-figma",
+    "escapedName": "storybook-addon-figma",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/storybook-addon-figma/-/storybook-addon-figma-0.1.0.tgz",
+  "_shasum": "4c1e1af62e822aebd43332c43b7c3b63dc6ba4e8",
+  "_spec": "storybook-addon-figma",
+  "_where": "/Users/matthewshade/WEB.Phoenix",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/hharnisc/storybook-addon-figma/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Storybook addon for figma",
+  "devDependencies": {
+    "@storybook/react": "3.2.12",
+    "babel-cli": "6.26.0",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-react-app": "3.0.3",
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
+  },
+  "homepage": "https://github.com/hharnisc/storybook-addon-figma#readme",
+  "keywords": [
+    "storybook",
+    "addon",
+    "figma"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "storybook-addon-figma",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hharnisc/storybook-addon-figma.git"
+  },
+  "scripts": {
+    "prepublish": "node .scripts/npm-prepublish.js",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
+}
