@@ -48,7 +48,6 @@
     "url": "git+https://github.com/cnbc/WEB.storybook-addon-figma.git"
   },
   "scripts": {
-    "prepublish": "node .scripts/npm-prepublish.js",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
