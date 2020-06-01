@@ -56,7 +56,5 @@
   "bugs": {
     "url": "https://github.com/cnbc/WEB.storybook-addon-figma/issues"
   },
-  "dependencies": {
-    "npm-prepublish": "^1.2.3"
-  }
+  "dependencies": {}
 }
