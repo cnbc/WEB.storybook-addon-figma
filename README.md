@@ -7,7 +7,7 @@
 Install the addon
 
 ```sh
-npm i --save-dev storybook-addon-figma
+npm i --save-dev matts-storybook-addon-figma
 ```
 
 Register the plugin
