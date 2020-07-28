@@ -32,7 +32,7 @@
     "babel-polyfill": "6.26.0",
     "babel-preset-react-app": "3.0.3",
     "react": "16.0.0",
-    "react-dom": "16.0.0"
+    "react-dom": "^16.13.1"
   },
   "homepage": "https://github.com/cnbc/WEB.storybook-addon-figma#readme",
   "keywords": [
@@ -55,5 +55,8 @@
   "bugs": {
     "url": "https://github.com/cnbc/WEB.storybook-addon-figma/issues"
   },
-  "dependencies": {}
+  "dependencies": {
+    "js-yaml": "^3.14.0",
+    "lodash": "^4.17.19"
+  }
 }
