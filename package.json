@@ -58,6 +58,7 @@
   "dependencies": {
     "js-yaml": "^3.14.0",
     "lodash": "^4.17.19",
-    "mem": "^6.1.0"
+    "mem": "^6.1.0",
+    "os-locale": "^5.0.0"
   }
 }

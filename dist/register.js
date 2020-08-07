@@ -87,9 +87,9 @@ export var FigmaPanel = function (_React$Component) {
           {
             style: {
               margin: '1rem',
-              fontFamily: 'Arial',
-              fontSize: '.8rem',
-              color: '#444',
+              fontFamily: "'Proxima Nova', Helvetica, Arial, sans-serif;",
+              fontSize: '14px',
+              color: '#171717',
               width: '100%',
               overflow: 'auto'
             }
@@ -97,7 +97,7 @@ export var FigmaPanel = function (_React$Component) {
           React.createElement(
             'div',
             null,
-            'A Figma design is not yet available for this story.'
+            'Figma design is not found. Message your designer for the link.'
           )
         );
       }
