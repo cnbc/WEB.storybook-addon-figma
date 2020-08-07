@@ -10,7 +10,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import addons from '@storybook/addons';
 import { ADDON_ID, PANEL_ID, EVENT_ID } from './shared';
-import './fonts.cnbc.scss';
 
 export var FigmaPanel = function (_React$Component) {
   _inherits(FigmaPanel, _React$Component);
@@ -88,7 +87,7 @@ export var FigmaPanel = function (_React$Component) {
           {
             style: {
               margin: '1rem',
-              fontFamily: "'Proxima Nova', Helvetica, Arial, sans-serif;",
+              fontFamily: 'Helvetica, Arial, sans-serif',
               fontSize: '14px',
               color: '#171717',
               width: '100%',
