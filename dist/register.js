@@ -10,7 +10,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import addons from '@storybook/addons';
 import { ADDON_ID, PANEL_ID, EVENT_ID } from './shared';
-import 'assets/stylesheets/global/fonts.cnbc.scss';
+import '../src/assets/stylesheets/global/fonts.cnbc.scss';
 
 export var FigmaPanel = function (_React$Component) {
   _inherits(FigmaPanel, _React$Component);
