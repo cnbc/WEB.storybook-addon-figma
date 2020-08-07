@@ -1,0 +1,53 @@
+@mixin fontFace($fontName, $fontWeight, $fontStyle, $fontFilePath, $formats) {
+  $src: '';
+  @each $format in $formats {
+    @if str-length($src) > 0 {
+      $src: $src + ' ,';
+    }
+    $src: $src + "url('#{$fontFilePath}') format('#{$format}')";
+  }
+
+  @font-face {
+    font-family: $fontName;
+    src: local('#{$fontFilePath}'), #{$src};
+    font-weight: $fontWeight;
+    font-style: $fontStyle;
+    font-display: swap;
+  }
+}
+
+
+// Proxima Nova Black
+@include fontFace('Proxima Nova', 800, normal, '/ProximaNova/351C86_0_0.eot', ('eot'));
+@include fontFace('Proxima Nova', 800, normal, '/ProximaNova/351C86_0_0.eot?#iefix', ('embedded-opentype'));
+@include fontFace('Proxima Nova', 800, normal, '/ProximaNova/351C86_0_0.ttf', ('truetype'));
+@include fontFace('Proxima Nova', 800, normal, '/ProximaNova/351C86_0_0.woff', ('woff'));
+@include fontFace('Proxima Nova', 800, normal, '/ProximaNova/351C86_0_0.woff2', ('woff2'));
+
+// Proxima Nova Bold
+@include fontFace('Proxima Nova', 600, normal, '/ProximaNova/351C86_1_0.eot', ('eot'));
+@include fontFace('Proxima Nova', 600, normal, '/ProximaNova/351C86_1_0.eot?#iefix', ('embedded-opentype'));
+@include fontFace('Proxima Nova', 600, normal, '/ProximaNova/351C86_1_0.ttf', ('truetype'));
+@include fontFace('Proxima Nova', 600, normal, '/ProximaNova/351C86_1_0.woff', ('woff'));
+@include fontFace('Proxima Nova', 600, normal, '/ProximaNova/351C86_1_0.woff2', ('woff2'));
+
+// Proxima Nova ExtraBold
+@include fontFace('Proxima Nova', 700, normal, '/ProximaNova/351C86_2_0.eot', ('eot'));
+@include fontFace('Proxima Nova', 700, normal, '/ProximaNova/351C86_2_0.eot?#iefix', ('embedded-opentype'));
+@include fontFace('Proxima Nova', 700, normal, '/ProximaNova/351C86_2_0.ttf', ('truetype'));
+@include fontFace('Proxima Nova', 700, normal, '/ProximaNova/351C86_2_0.woff', ('woff'));
+@include fontFace('Proxima Nova', 700, normal, '/ProximaNova/351C86_2_0.woff2', ('woff2'));
+
+// Proxima Nova Reg
+@include fontFace('Proxima Nova', 400, normal, '/ProximaNova/351C86_3_0.eot', ('eot'));
+@include fontFace('Proxima Nova', 400, normal, '/ProximaNova/351C86_3_0.eot?#iefix', ('embedded-opentype'));
+@include fontFace('Proxima Nova', 400, normal, '/ProximaNova/351C86_3_0.ttf', ('truetype'));
+@include fontFace('Proxima Nova', 400, normal, '/ProximaNova/351C86_3_0.woff', ('woff'));
+@include fontFace('Proxima Nova', 400, normal, '/ProximaNova/351C86_3_0.woff2', ('woff2'));
+
+// Proxima Nova Smbd
+@include fontFace('Proxima Nova', 500, normal, '/ProximaNova/351C86_4_0.eot', ('eot'));
+@include fontFace('Proxima Nova', 500, normal, '/ProximaNova/351C86_4_0.eot?#iefix', ('embedded-opentype'));
+@include fontFace('Proxima Nova', 500, normal, '/ProximaNova/351C86_4_0.ttf', ('truetype'));
+@include fontFace('Proxima Nova', 500, normal, '/ProximaNova/351C86_4_0.woff', ('woff'));
+@include fontFace('Proxima Nova', 500, normal, '/ProximaNova/351C86_4_0.woff2', ('woff2'));
